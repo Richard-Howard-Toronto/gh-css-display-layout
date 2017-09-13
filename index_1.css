@@ -1,3 +1,8 @@
+body {
+  width: 960px;
+
+}
+
 header {
   background-color: black;
   color: white;
@@ -8,7 +13,7 @@ header {
   margin-bottom: 20px;
 }
 
-a {
+nav a {
   background-color: lightgrey;
   color: white;
   text-align: center;
@@ -22,6 +27,34 @@ a {
 div.container1 {
   background-color: none;
   text-align: center;
+  font-weight: bold;
+}
+
+
+div.container1 a:hover {
+  background-color: grey;
+}
+
+/*container 2 and container 3 contain the photos*/
+
+
+div.container2 .photo_footer {
+  border: solid;
+  display: inline-block;
+}
+
+div.container3 .photo_footer {
+  border: solid;
+  display: inline-block;
+}
+
+
+div.photo_footer {
+  background-color: yellow;
+  text-align: center;
+  width: 300px;
+  margin-top: 30px;
+  padding-bottom: 8.2px;
 }
 
 h4 {
@@ -34,6 +67,7 @@ h4 {
 
 footer {
   background-color: black;
+  font-size: 25px;
 }
 
 /*the h6 is for the footer*/
@@ -42,4 +76,9 @@ h6 {
   color: white;
   text-align: center;
   padding: 10px;
+}
+
+a {
+  background-color: none;
+  font-weight: bold;
 }
