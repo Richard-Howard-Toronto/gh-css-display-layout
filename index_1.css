@@ -17,7 +17,29 @@ a {
   font-family: sans-serif;
 }
 
+/*this div container holds the HOme, Add a photo and About h refs.  text-align centers the three boxes*/
+
 div.container1 {
-  background-color: blue;
-  text-align: none;
+  background-color: none;
+  text-align: center;
+}
+
+h4 {
+  font-family: sans-serif;
+  background-color: lightgreen;
+  padding: 11px;
+  text-align: left;
+}
+
+
+footer {
+  background-color: black;
+}
+
+/*the h6 is for the footer*/
+
+h6 {
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
